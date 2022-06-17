@@ -7,8 +7,8 @@ body{
     background-color:hsl(0, 0%, 95%) ;
     display: flex;
     font-size: 15px;
-    font-family: 'Big Shoulders Display';
-    font-weight: 700;
+    font-family:[Lexend Deca];
+    font-weight: 400;
 }
 main{
     display: flex;
