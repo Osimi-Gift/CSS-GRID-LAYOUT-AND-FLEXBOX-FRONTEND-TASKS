@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:hsl(0, 0%, 95%) ;
+    display: flex;
+    font-size: 15px;
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+}
+main{
+    display: flex;
+    grid-template-areas: 
+    "a b c"
+    "a b c"
+    ;
+    width:50%;
+    margin: auto;
+     justify-content: center; 
+    align-items: center;
+     height: 100vh; 
+    flex-direction: row;
+    padding: auto;
+    text-align: left;
+}
+main>div{
+    text-align: left;
+    justify-content: center; 
+    align-items: center; 
+    padding-top: 40px;
+    padding-bottom: 60px;
+    border-radius: 5px;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+.item-a{
+    background-color:hsl(31, 77%, 52%);
+}
+.item-b{
+    background-color: hsl(184, 100%, 22%);
+    margin-top: 0;
+    /* padding-bottom: 98px; */
+}
+.item-c{
+    background-color:  hsl(179, 100%, 13%);
+}
+button {
+   margin-top: 70px;
+   padding: 10px;
+   border: none;
+   border-radius: 20px ;
+   margin-bottom: 2px;
+   background-color: hsl(0, 0%, 95%);
+}
+b{
+    color: hsl(0, 0%, 95%);
+    /* padding-bottom: 40px; */
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+h3{
+    padding-bottom: 20px;
+}
+#first{
+color: hsl(31, 77%, 52%);
+}
+#second{
+    color: hsl(184, 100%, 22%);
+}
+#third{
+    color:  hsl(179, 100%, 13%);
+}
+img{
+    justify-content: left;
+    align-self:right;
+    padding-bottom: 10px;
+    padding-top: 0;
+    padding-right: 50px;
+}
