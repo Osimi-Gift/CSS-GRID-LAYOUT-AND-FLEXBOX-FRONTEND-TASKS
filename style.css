@@ -16,20 +16,20 @@ main{
     "a b c"
     "a b c"
     ;
-    width:70%;
+    width:50%;
     margin: auto;
      justify-content: center; 
     align-items: center;
      height: 100vh; 
     flex-direction: row;
-    padding: auto;
+   /* padding: auto;*/
     text-align: left;
 }
 main>div{
     text-align: left;
     justify-content: center; 
     align-items: center; 
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom: 60px;
     border-radius: 5px;
     padding-left: 20px;
@@ -37,14 +37,13 @@ main>div{
 }
 .item-a{
     background-color:hsl(31, 77%, 52%);
-    Padding-top:-5px;
+   
 }
 .item-b{
     background-color: hsl(184, 100%, 22%);
     margin-top: 0;
 }
 .item-c{
-    Padding-top:-10px;
     background-color:  hsl(179, 100%, 13%);
 }
 button {
@@ -80,5 +79,6 @@ img{
     padding-top: 0;
     padding-right: 50px;
 }
+
 
 
