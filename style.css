@@ -79,8 +79,8 @@ img{
     padding-right: 50px;
 }
   /*Desktop*/
-@media and screen (max-width:1440);
+@media and screen (max-width:1440px){}
 
 /*Mobile*/
-@media and screen (min-width:375);
+@media and screen (min-width:375px) {}
 
