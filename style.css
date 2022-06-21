@@ -44,8 +44,8 @@ main>div{
     margin-top: 0;
 }
 .item-c{
-    Padding:20px;
-    Height: -20px
+    Padding-right:200px;
+    Height: -200px
     background-color:  hsl(179, 100%, 13%);
 }
 button {
