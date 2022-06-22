@@ -80,3 +80,9 @@ img{
     padding-top: 0;
     padding-right: 50px;
 }
+
+/* Mobile. */
+@media (min-width: 375px) {}
+
+/* DeskTop */
+@media (min-width: 1440px) {}
