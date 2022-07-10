@@ -32,8 +32,8 @@ main>div{
     padding-top: 40px;
     padding-bottom: 60px;
     border-radius: 5px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .item-a{
     background-color:hsl(31, 77%, 52%);
@@ -41,11 +41,10 @@ main>div{
 }
 .item-b{
     background-color: hsl(184, 100%, 22%);
-    margin-top: 0;
+    
 }
 .item-c{
-    Padding-right:200px;
-    Height: -200px
+    
     background-color:  hsl(179, 100%, 13%);
 }
 button {
@@ -63,7 +62,7 @@ p{
     color: hsl(0, 0%, 100%, 0.75);
 }
 h3{
-   
+padding-bottom: 10px;
 }
 #first{
 color: hsl(31, 77%, 52%);
@@ -78,9 +77,12 @@ img{
     justify-content: left;
     align-self:right;
     padding-bottom: 10px;
-    padding-top: 0;
-    padding-right: 50px;
+    padding-top: 10px;
+    padding-right: 60px;
 }
 
+
+@media(min-width:375px){}
+@media(min-width:1440px){}
 
 
