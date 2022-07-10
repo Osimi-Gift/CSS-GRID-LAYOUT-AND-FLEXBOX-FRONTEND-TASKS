@@ -7,7 +7,7 @@ body{
     background-color:hsl(0, 0%, 95%) ;
     display: flex;
     font-size: 15px;
-    font-family:' Big Shoulders Display';
+    font-family:[Lexend Deca];
     font-weight: 400;
 }
 main{
@@ -32,22 +32,24 @@ main>div{
     padding-top: 40px;
     padding-bottom: 60px;
     border-radius: 5px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 .item-a{
     background-color:hsl(31, 77%, 52%);
+   
 }
 .item-b{
     background-color: hsl(184, 100%, 22%);
-   /* padding-top: 60px; */
-    /* padding-bottom: 98px; */
+    margin-top: 0;
 }
 .item-c{
+    Padding-right:200px;
+    Height: -200px
     background-color:  hsl(179, 100%, 13%);
 }
 button {
-   margin-top: 40px;
+   margin-top: 70px;
    padding: 10px;
    border: none;
    border-radius: 20px ;
@@ -56,13 +58,12 @@ button {
 }
 b{
     color: hsl(0, 0%, 95%);
-    /* padding-bottom: 40px; */
 }
 p{
-    color: hsla(0, 0%, 100%, 0.75);
+    color: hsl(0, 0%, 100%, 0.75);
 }
 h3{
-    padding-bottom: 10px;
+   
 }
 #first{
 color: hsl(31, 77%, 52%);
@@ -74,16 +75,12 @@ color: hsl(31, 77%, 52%);
     color:  hsl(179, 100%, 13%);
 }
 img{
-    justify-content: center;
-    align-items:left;
-    padding-bottom: 20px;
+    justify-content: left;
+    align-self:right;
+    padding-bottom: 10px;
     padding-top: 0;
-    padding-left: 0px;
-   margin-right: 60px;
+    padding-right: 50px;
 }
 
-/* Mobile. */
-@media  (min-width: 375px) {} 
 
-/* DeskTop */
-@media (min-width: 1440px) {}
+
